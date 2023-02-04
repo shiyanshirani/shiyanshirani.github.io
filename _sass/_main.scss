@@ -153,6 +153,13 @@ strong, b {
 	font-variant-numeric: tabular-nums;
 }
 
+.posts li time {
+	padding-left: 1rem;
+	white-space: nowrap;
+	font-variant-numeric: tabular-nums;
+	color: #C0C0C0
+}
+
 .post ul, .project ul, .post ol  {
 	//list-style-position: inside;
 }
@@ -176,7 +183,7 @@ header li {
 }
 header ul {
 	border-bottom: 1px solid #edf2f7;
-	padding-bottom: 2rem;	
+	padding-bottom: 2rem;
 }
 nav ul {
     border-right: 0px;
@@ -194,7 +201,7 @@ section {
 	min-width:70%;
 	display:flex;
 	flex-direction:column;
-	
+
 }
 
 figcaption {
