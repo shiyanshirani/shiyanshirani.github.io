@@ -20,7 +20,7 @@ You can find all my configuration in [dotfiles](https://www.github.com/shiyanshi
 3. [yabai](https://github.com/koekeishiya/yabai){:target="_blank"} - a tiling management tool that snaps in tiles at lightining-fast speed which puts the native full-screen app tiling for macOS to absolute shame. *it's [i3](https://i3wm.org/){:target="_blank"} for unix.* I twin it with [skhd](https://github.com/koekeishiya/skhd){:target="_blank"} for keymapping with the addition of system-wide maps.
 
 4. [nvim/vim](https://www.google.com) - personalized development environment (*PDE*). small-dive into my most used [plugins](#plugins) and [*story time*](#story time)
-<a href="#">asd</a>
+
 5. firefox -
 
 <img src="/assets/firefox.png"  width="auto" height="auto">
@@ -32,7 +32,7 @@ shell:      zsh
 terminal:   alacritty
 wm:         yabai
 ```
-
+/div
 One of the hobbies I had way back since 2016 was for keyboards,  I spent ridiculous numbers of hours star-gazing [r/mkindia](https://www.reddit.com/r/mkindia/){:taget="_blank"} and [r/MechanicalKeyboards](https://www.reddit.com/r/MechanicalKeyboards/){:target="_blank"}, So I bought [Gamakay TK68](https://www.banggood.in/GAMAKAY-TK68-Mechanical-Keyboard-68-Keys-Triple-Mode-Connection-Wired-Type-C-or-BT5_0-or-2_4G-Wireless-with-Receiver-Gateron-Switch-XDA-Profile-PBT-Keycaps-Hot-Swappable-RGB-Gaming-Keyboard-p-1837263.html?cur_warehouse=CN&ID=515632){:target="_blank"} in 2020 and geared then up with Gateron Browns (*not bad for the beginners*).
 
 <img src="/assets/gamakay.png"  width="auto" height="auto">

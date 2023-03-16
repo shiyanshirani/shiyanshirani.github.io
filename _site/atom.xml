@@ -4,7 +4,7 @@
  <title>Shiyan Shirani</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2023-02-15T16:14:42+05:30</updated>
+ <updated>2023-03-16T11:57:11+05:30</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Shiyan Shirani</name>
@@ -25,7 +25,6 @@
 As Python is an interpreted language, I was wondered how this the interpretation works under the hood. &lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;with the help of &lt;code&gt;dis&lt;/code&gt; you can see what the byte level operations are being told by the code you’ve written&lt;/p&gt;
-
 </content>
  </entry>
 
@@ -67,9 +66,12 @@ You can find all my configuration in &lt;a href=&quot;https://www.github.com/shi
   &lt;li&gt;
     &lt;p&gt;&lt;a href=&quot;https://github.com/koekeishiya/yabai&quot; target=&quot;_blank&quot;&gt;yabai&lt;/a&gt; - a tiling management tool that snaps in tiles at lightining-fast speed which puts the native full-screen app tiling for macOS to absolute shame. &lt;em&gt;it’s &lt;a href=&quot;https://i3wm.org/&quot; target=&quot;_blank&quot;&gt;i3&lt;/a&gt; for unix.&lt;/em&gt; I twin it with &lt;a href=&quot;https://github.com/koekeishiya/skhd&quot; target=&quot;_blank&quot;&gt;skhd&lt;/a&gt; for keymapping with the addition of system-wide maps.&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.google.com&quot;&gt;nvim/vim&lt;/a&gt; - personalized development environment (&lt;em&gt;PDE&lt;/em&gt;). small-dive into my most used &lt;a href=&quot;#plugins&quot;&gt;plugins&lt;/a&gt; and &lt;a href=&quot;#story time&quot;&gt;&lt;em&gt;story time&lt;/em&gt;&lt;/a&gt;
-&lt;a href=&quot;#&quot;&gt;asd&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;firefox -&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.google.com&quot;&gt;nvim/vim&lt;/a&gt; - personalized development environment (&lt;em&gt;PDE&lt;/em&gt;). small-dive into my most used &lt;a href=&quot;#plugins&quot;&gt;plugins&lt;/a&gt; and &lt;a href=&quot;#story time&quot;&gt;&lt;em&gt;story time&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;firefox -&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/firefox.png&quot; width=&quot;auto&quot; height=&quot;auto&quot; /&gt;&lt;/p&gt;
@@ -79,8 +81,8 @@ shell:      zsh
 terminal:   alacritty
 wm:         yabai
 &lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;One of the hobbies I had way back since 2016 was for keyboards,  I spent ridiculous numbers of hours star-gazing &lt;a href=&quot;https://www.reddit.com/r/mkindia/&quot; taget=&quot;_blank&quot;&gt;r/mkindia&lt;/a&gt; and &lt;a href=&quot;https://www.reddit.com/r/MechanicalKeyboards/&quot; target=&quot;_blank&quot;&gt;r/MechanicalKeyboards&lt;/a&gt;, So I bought &lt;a href=&quot;https://www.banggood.in/GAMAKAY-TK68-Mechanical-Keyboard-68-Keys-Triple-Mode-Connection-Wired-Type-C-or-BT5_0-or-2_4G-Wireless-with-Receiver-Gateron-Switch-XDA-Profile-PBT-Keycaps-Hot-Swappable-RGB-Gaming-Keyboard-p-1837263.html?cur_warehouse=CN&amp;amp;ID=515632&quot; target=&quot;_blank&quot;&gt;Gamakay TK68&lt;/a&gt; in 2020 and geared then up with Gateron Browns (&lt;em&gt;not bad for the beginners&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;/div
+One of the hobbies I had way back since 2016 was for keyboards,  I spent ridiculous numbers of hours star-gazing &lt;a href=&quot;https://www.reddit.com/r/mkindia/&quot; taget=&quot;_blank&quot;&gt;r/mkindia&lt;/a&gt; and &lt;a href=&quot;https://www.reddit.com/r/MechanicalKeyboards/&quot; target=&quot;_blank&quot;&gt;r/MechanicalKeyboards&lt;/a&gt;, So I bought &lt;a href=&quot;https://www.banggood.in/GAMAKAY-TK68-Mechanical-Keyboard-68-Keys-Triple-Mode-Connection-Wired-Type-C-or-BT5_0-or-2_4G-Wireless-with-Receiver-Gateron-Switch-XDA-Profile-PBT-Keycaps-Hot-Swappable-RGB-Gaming-Keyboard-p-1837263.html?cur_warehouse=CN&amp;amp;ID=515632&quot; target=&quot;_blank&quot;&gt;Gamakay TK68&lt;/a&gt; in 2020 and geared then up with Gateron Browns (&lt;em&gt;not bad for the beginners&lt;/em&gt;).&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/gamakay.png&quot; width=&quot;auto&quot; height=&quot;auto&quot; /&gt;&lt;/p&gt;
 
