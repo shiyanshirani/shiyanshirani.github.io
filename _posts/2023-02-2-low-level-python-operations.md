@@ -7,7 +7,9 @@ summary:
 tags: [python]
 ---
 
-> best practise is to reverse engineer the problem to the bits of the bug. `dis` gonna take it to the byte level.
+> best practise is to reverse engineer the problem to the bits of the bug. `dis` gonna take it to the byte level. <br/>
 
 I always used to wonder how python is interpreted and how does it exactly work under the hood during my journey of learning Python.
-As Python is an interpreted language, I was wondered how this the interpretation works under the hood.
+As Python is an interpreted language, I was wondered how this the interpretation works under the hood. <br/>
+
+with the help of `dis` you can see what the byte level operations are being told by the code you've written

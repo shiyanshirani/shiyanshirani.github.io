@@ -2,16 +2,10 @@ site: Shiyan Shirani
 url: #yoururl
 title: Shiyan Shirani
 description: bits of work & life.
-twitter:
-  username: #yourusername
-  card: summary
-  creator: #yourusername
 author:
-  twitter: #yourusername
-  name: #yourusername
+  name: Shiyan Shirani
   avatar:
-  email: #youremail
-  url: #yoururl
+  email: shiyan99s@gmail.com
 permalink: pretty
 
 baseurl: ""
@@ -41,6 +35,9 @@ collections:
   posts:
     output: true
     permalink: /:year/:month/:day/:slug
+  life:
+    output: true
+    permalink: /:life
 
 defaults:
   -

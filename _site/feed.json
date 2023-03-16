@@ -8,7 +8,11 @@
     "favicon": "http://localhost:4000/favicon.ico",
     "expired": false,
 
-    "author": "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}",
+    "author":  {
+        "name": "Shiyan Shirani",
+        "url": null,
+        "avatar": null
+    },
 
 "items": [
 
@@ -16,8 +20,8 @@
             "id": "http://localhost:4000/2023/02/02/low-level-python-operations",
             "title": "You're going to love `dis`",
             "summary": null,
-            "content_text": "  best practise is to reverse engineer the problem to the bits of the bug. dis gonna take it to the byte level.I always used to wonder how python is interpreted and how does it exactly work under the hood during my journey of learning Python. As Python is an interpreted language, I was wondered how this the interpretation works under the hood.",
-            "content_html": "<blockquote>  <p>best practise is to reverse engineer the problem to the bits of the bug. <code>dis</code> gonna take it to the byte level.</p></blockquote><p>I always used to wonder how python is interpreted and how does it exactly work under the hood during my journey of learning Python. As Python is an interpreted language, I was wondered how this the interpretation works under the hood.</p>",
+            "content_text": "  best practise is to reverse engineer the problem to the bits of the bug. dis gonna take it to the byte level. I always used to wonder how python is interpreted and how does it exactly work under the hood during my journey of learning Python.As Python is an interpreted language, I was wondered how this the interpretation works under the hood. with the help of dis you can see what the byte level operations are being told by the code you’ve written",
+            "content_html": "<blockquote>  <p>best practise is to reverse engineer the problem to the bits of the bug. <code>dis</code> gonna take it to the byte level. <br /></p></blockquote><p>I always used to wonder how python is interpreted and how does it exactly work under the hood during my journey of learning Python.As Python is an interpreted language, I was wondered how this the interpretation works under the hood. <br /></p><p>with the help of <code>dis</code> you can see what the byte level operations are being told by the code you’ve written</p>",
             "url": "http://localhost:4000/2023/02/02/low-level-python-operations",
 
 
@@ -27,8 +31,59 @@
             "date_published": "2023-02-02T00:00:00+05:30",
             "date_modified": "2023-02-02T00:00:00+05:30",
 
-                "author":
-                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                "author":  {
+                "name": "Shiyan Shirani",
+                "url": null,
+                "avatar": null
+                }
+
+
+        },
+
+        {
+            "id": "http://localhost:4000/2023/01/02/neo-brutualism-art",
+            "title": "Neo-Brutualism Art",
+            "summary": null,
+            "content_text": "",
+            "content_html": "",
+            "url": "http://localhost:4000/2023/01/02/neo-brutualism-art",
+
+
+
+            "tags": ["life","art"],
+
+            "date_published": "2023-01-02T00:00:00+05:30",
+            "date_modified": "2023-01-02T00:00:00+05:30",
+
+                "author":  {
+                "name": "Shiyan Shirani",
+                "url": null,
+                "avatar": null
+                }
+
+
+        },
+
+        {
+            "id": "http://localhost:4000/2022/12/14/semantic-searches",
+            "title": "Semantic Searches",
+            "summary": null,
+            "content_text": "",
+            "content_html": "",
+            "url": "http://localhost:4000/2022/12/14/semantic-searches",
+
+
+
+
+
+            "date_published": "2022-12-14T00:00:00+05:30",
+            "date_modified": "2022-12-14T00:00:00+05:30",
+
+                "author":  {
+                "name": "Shiyan Shirani",
+                "url": null,
+                "avatar": null
+                }
 
 
         },
@@ -37,8 +92,8 @@
             "id": "http://localhost:4000/2022/11/28/setting-up-dev-environment",
             "title": "Setting up my dev environment",
             "summary": null,
-            "content_text": "image-credits xkcd.comos : macOS 13.0.1terminal  : alacrittywm: yabaiI don’t rage quit while making my dotfiles.",
-            "content_html": "<p><img src=\"/assets/setting_up_dev_environment_comic.png\" alt=\"coding-comic\" /><br /></p><p>image-credits <em><a href=\"https://xkcd.com\">xkcd.com</a></em></p><pre><code class=\"language-bash\">os : macOS 13.0.1terminal  : alacrittywm: yabai</code></pre><p><del>I don’t rage quit while making my dotfiles.</del></p>",
+            "content_text": "Configuration that I mention here are tailored in such a manner that I seek comfort in.You can find all my configuration in dotfiles repository which I try to keep updated on frequent basis.      MacBook Pro 2020 (Intel) - with this being my daily driver for work as well has personal use, it never failed me to get the work done with ease, if only I could ask for update is for Finder, sometimes it could get a lot more difficult to do the straight-forward chores.        alacritty - the most light-weighted terminal ever came across, as it is a terminal emulator it doesn’t come with tab support so for that I complement it with tmux with a cheeky way of using keymapings found on Josh Medeski’s notion        yabai - a tiling management tool that snaps in tiles at lightining-fast speed which puts the native full-screen app tiling for macOS to absolute shame. it’s i3 for unix. I twin it with skhd for keymapping with the addition of system-wide maps.    nvim/vim - personalized development environment (PDE). small-dive into my most used plugins and story timeasd  firefox -os:         macOS Ventura (13.0.1)shell:      zshterminal:   alacrittywm:         yabaiOne of the hobbies I had way back since 2016 was for keyboards,  I spent ridiculous numbers of hours star-gazing r/mkindia and r/MechanicalKeyboards, So I bought Gamakay TK68 in 2020 and geared then up with Gateron Browns (not bad for the beginners).plugins  telescope.nvim - by far the most used plugin  vim-cool - removes highlighted texts after buffer search when hit return.  mason.nvim - lets me install lsps, formatters, linters &amp; daps on the go.story timeimage credits xkcd.com",
+            "content_html": "<p>Configuration that I mention here are tailored in such a manner that I seek comfort in.You can find all my configuration in <a href=\"https://www.github.com/shiyanshirani/dotfiles\" target=\"_blank\">dotfiles</a> repository which I try to keep updated on frequent basis.</p><p><img src=\"/assets/setting_up_dev_environment_comic.png\" alt=\"coding-comic\" /></p><ol>  <li>    <p><a href=\"https://support.apple.com/kb/SP819?locale=en_US\" target=\"_blank\">MacBook Pro 2020 (Intel)</a> - with this being my daily driver for work as well has personal use, it never failed me to get the work done with ease, if only I could ask for update is for Finder, sometimes it could get a lot more difficult to do the straight-forward chores.</p>  </li>  <li>    <p><a href=\"https://github.com/alacritty/alacritty\" target=\"_blank\">alacritty</a> - the most light-weighted terminal ever came across, as it is a terminal emulator it doesn’t come with tab support so for that I complement it with <a href=\"https://github.com/tmux/tmux/wiki/Getting-Started\" target=\"_blank\">tmux</a> with a cheeky way of using keymapings found on <a href=\"https://www.joshmedeski.com/posts/macos-keyboard-shortcuts-for-tmux/\" target=\"_blank\">Josh Medeski’s notion</a></p>  </li>  <li>    <p><a href=\"https://github.com/koekeishiya/yabai\" target=\"_blank\">yabai</a> - a tiling management tool that snaps in tiles at lightining-fast speed which puts the native full-screen app tiling for macOS to absolute shame. <em>it’s <a href=\"https://i3wm.org/\" target=\"_blank\">i3</a> for unix.</em> I twin it with <a href=\"https://github.com/koekeishiya/skhd\" target=\"_blank\">skhd</a> for keymapping with the addition of system-wide maps.</p>  </li>  <li><a href=\"https://www.google.com\">nvim/vim</a> - personalized development environment (<em>PDE</em>). small-dive into my most used <a href=\"#plugins\">plugins</a> and <a href=\"#story time\"><em>story time</em></a><a href=\"#\">asd</a></li>  <li>firefox -</li></ol><p><img src=\"/assets/firefox.png\" width=\"auto\" height=\"auto\" /></p><pre><code class=\"language-bash\">os:         macOS Ventura (13.0.1)shell:      zshterminal:   alacrittywm:         yabai</code></pre><p>One of the hobbies I had way back since 2016 was for keyboards,  I spent ridiculous numbers of hours star-gazing <a href=\"https://www.reddit.com/r/mkindia/\" taget=\"_blank\">r/mkindia</a> and <a href=\"https://www.reddit.com/r/MechanicalKeyboards/\" target=\"_blank\">r/MechanicalKeyboards</a>, So I bought <a href=\"https://www.banggood.in/GAMAKAY-TK68-Mechanical-Keyboard-68-Keys-Triple-Mode-Connection-Wired-Type-C-or-BT5_0-or-2_4G-Wireless-with-Receiver-Gateron-Switch-XDA-Profile-PBT-Keycaps-Hot-Swappable-RGB-Gaming-Keyboard-p-1837263.html?cur_warehouse=CN&amp;ID=515632\" target=\"_blank\">Gamakay TK68</a> in 2020 and geared then up with Gateron Browns (<em>not bad for the beginners</em>).</p><p><img src=\"/assets/gamakay.png\" width=\"auto\" height=\"auto\" /></p><h1 id=\"plugins\">plugins</h1><ol>  <li><code>telescope.nvim</code> - by far the most used plugin</li>  <li><code>vim-cool</code> - removes highlighted texts after buffer search when hit <code>return</code>.</li>  <li><code>mason.nvim</code> - lets me install lsps, formatters, linters &amp; daps on the go.</li></ol><hr /><h1 id=\"story-time\">story time</h1><p>image credits <a href=\"https://xkcd.com\">xkcd.com</a></p>",
             "url": "http://localhost:4000/2022/11/28/setting-up-dev-environment",
 
 
@@ -48,8 +103,11 @@
             "date_published": "2022-11-28T00:00:00+05:30",
             "date_modified": "2022-11-28T00:00:00+05:30",
 
-                "author":
-                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                "author":  {
+                "name": "Shiyan Shirani",
+                "url": null,
+                "avatar": null
+                }
 
 
         },
@@ -69,8 +127,11 @@
             "date_published": "2019-08-31T00:00:00+05:30",
             "date_modified": "2019-08-31T00:00:00+05:30",
 
-                "author":
-                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                "author":  {
+                "name": "Shiyan Shirani",
+                "url": null,
+                "avatar": null
+                }
 
 
         },
@@ -90,8 +151,11 @@
             "date_published": "2019-07-23T00:00:00+05:30",
             "date_modified": "2019-07-23T00:00:00+05:30",
 
-                "author":
-                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                "author":  {
+                "name": "Shiyan Shirani",
+                "url": null,
+                "avatar": null
+                }
 
 
         },
@@ -111,8 +175,11 @@
             "date_published": "2019-05-23T00:00:00+05:30",
             "date_modified": "2019-05-23T00:00:00+05:30",
 
-                "author":
-                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                "author":  {
+                "name": "Shiyan Shirani",
+                "url": null,
+                "avatar": null
+                }
 
 
         },
@@ -132,8 +199,11 @@
             "date_published": "2018-12-23T00:00:00+05:30",
             "date_modified": "2018-12-23T00:00:00+05:30",
 
-                "author":
-                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                "author":  {
+                "name": "Shiyan Shirani",
+                "url": null,
+                "avatar": null
+                }
 
 
         },
@@ -153,8 +223,11 @@
             "date_published": "2018-11-12T00:00:00+05:30",
             "date_modified": "2018-11-12T00:00:00+05:30",
 
-                "author":
-                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                "author":  {
+                "name": "Shiyan Shirani",
+                "url": null,
+                "avatar": null
+                }
 
 
         },
@@ -174,8 +247,11 @@
             "date_published": "2018-09-20T00:00:00+05:30",
             "date_modified": "2018-09-20T00:00:00+05:30",
 
-                "author":
-                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                "author":  {
+                "name": "Shiyan Shirani",
+                "url": null,
+                "avatar": null
+                }
 
 
         },
@@ -195,8 +271,11 @@
             "date_published": "2018-09-11T00:00:00+05:30",
             "date_modified": "2018-09-11T00:00:00+05:30",
 
-                "author":
-                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                "author":  {
+                "name": "Shiyan Shirani",
+                "url": null,
+                "avatar": null
+                }
 
 
         },
@@ -216,8 +295,11 @@
             "date_published": "2018-08-18T00:00:00+05:30",
             "date_modified": "2018-08-18T00:00:00+05:30",
 
-                "author":
-                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                "author":  {
+                "name": "Shiyan Shirani",
+                "url": null,
+                "avatar": null
+                }
 
 
         },
@@ -237,8 +319,11 @@
             "date_published": "2018-06-14T00:00:00+05:30",
             "date_modified": "2018-06-14T00:00:00+05:30",
 
-                "author":
-                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                "author":  {
+                "name": "Shiyan Shirani",
+                "url": null,
+                "avatar": null
+                }
 
 
         },
@@ -258,8 +343,11 @@
             "date_published": "2018-06-07T00:00:00+05:30",
             "date_modified": "2018-06-07T00:00:00+05:30",
 
-                "author":
-                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                "author":  {
+                "name": "Shiyan Shirani",
+                "url": null,
+                "avatar": null
+                }
 
 
         },
@@ -279,8 +367,11 @@
             "date_published": "2018-05-13T00:00:00+05:30",
             "date_modified": "2018-05-13T00:00:00+05:30",
 
-                "author":
-                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                "author":  {
+                "name": "Shiyan Shirani",
+                "url": null,
+                "avatar": null
+                }
 
 
         },
@@ -300,8 +391,11 @@
             "date_published": "2018-02-05T00:00:00+05:30",
             "date_modified": "2018-02-05T00:00:00+05:30",
 
-                "author":
-                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                "author":  {
+                "name": "Shiyan Shirani",
+                "url": null,
+                "avatar": null
+                }
 
 
         },
@@ -321,8 +415,11 @@
             "date_published": "2018-02-03T00:00:00+05:30",
             "date_modified": "2018-02-03T00:00:00+05:30",
 
-                "author":
-                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                "author":  {
+                "name": "Shiyan Shirani",
+                "url": null,
+                "avatar": null
+                }
 
 
         },
@@ -342,8 +439,11 @@
             "date_published": "2018-01-17T00:00:00+05:30",
             "date_modified": "2018-01-17T00:00:00+05:30",
 
-                "author":
-                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                "author":  {
+                "name": "Shiyan Shirani",
+                "url": null,
+                "avatar": null
+                }
 
 
         },
@@ -363,8 +463,11 @@
             "date_published": "2017-11-15T00:00:00+05:30",
             "date_modified": "2017-11-15T00:00:00+05:30",
 
-                "author":
-                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                "author":  {
+                "name": "Shiyan Shirani",
+                "url": null,
+                "avatar": null
+                }
 
 
         },
@@ -384,8 +487,11 @@
             "date_published": "2017-11-10T00:00:00+05:30",
             "date_modified": "2017-11-10T00:00:00+05:30",
 
-                "author":
-                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                "author":  {
+                "name": "Shiyan Shirani",
+                "url": null,
+                "avatar": null
+                }
 
 
         },
@@ -405,8 +511,11 @@
             "date_published": "2017-01-03T00:00:00+05:30",
             "date_modified": "2017-01-03T00:00:00+05:30",
 
-                "author":
-                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                "author":  {
+                "name": "Shiyan Shirani",
+                "url": null,
+                "avatar": null
+                }
 
 
         },
@@ -426,8 +535,11 @@
             "date_published": "2016-12-11T00:00:00+05:30",
             "date_modified": "2016-12-11T00:00:00+05:30",
 
-                "author":
-                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                "author":  {
+                "name": "Shiyan Shirani",
+                "url": null,
+                "avatar": null
+                }
 
 
         },
@@ -447,8 +559,11 @@
             "date_published": "2016-11-27T00:00:00+05:30",
             "date_modified": "2016-11-27T00:00:00+05:30",
 
-                "author":
-                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                "author":  {
+                "name": "Shiyan Shirani",
+                "url": null,
+                "avatar": null
+                }
 
 
         },
@@ -468,8 +583,11 @@
             "date_published": "2015-07-31T00:00:00+05:30",
             "date_modified": "2015-07-31T00:00:00+05:30",
 
-                "author":
-                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                "author":  {
+                "name": "Shiyan Shirani",
+                "url": null,
+                "avatar": null
+                }
 
 
         },
@@ -489,8 +607,11 @@
             "date_published": "2014-05-12T00:00:00+05:30",
             "date_modified": "2014-05-12T00:00:00+05:30",
 
-                "author":
-                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                "author":  {
+                "name": "Shiyan Shirani",
+                "url": null,
+                "avatar": null
+                }
 
 
         }

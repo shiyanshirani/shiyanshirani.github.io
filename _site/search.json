@@ -13,6 +13,28 @@
 
     {
 
+      "title"    : "Neo-Brutualism Art",
+      "description" : "",
+      "url"      : "/2023/01/02/neo-brutualism-art",
+      "category" : "",
+      "tags"     : "life, art",
+      "date"     : "2023-01-02 00:00:00 +0530"
+
+    } ,
+
+    {
+
+      "title"    : "Semantic Searches",
+      "description" : "",
+      "url"      : "/2022/12/14/semantic-searches",
+      "category" : "",
+      "tags"     : "",
+      "date"     : "2022-12-14 00:00:00 +0530"
+
+    } ,
+
+    {
+
       "title"    : "Setting up my dev environment",
       "description" : "",
       "url"      : "/2022/11/28/setting-up-dev-environment",

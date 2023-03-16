@@ -4,11 +4,11 @@
  <title>Shiyan Shirani</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2023-02-05T02:54:35+05:30</updated>
+ <updated>2023-02-15T16:14:42+05:30</updated>
  <id>http://localhost:4000</id>
  <author>
-   <name></name>
-   <email></email>
+   <name>Shiyan Shirani</name>
+   <email>shiyan99s@gmail.com</email>
  </author>
 
 
@@ -18,11 +18,32 @@
    <updated>2023-02-02T00:00:00+05:30</updated>
    <id>http://localhost:4000/2023/02/02/low-level-python-operations</id>
    <content type="html">&lt;blockquote&gt;
-  &lt;p&gt;best practise is to reverse engineer the problem to the bits of the bug. &lt;code&gt;dis&lt;/code&gt; gonna take it to the byte level.&lt;/p&gt;
+  &lt;p&gt;best practise is to reverse engineer the problem to the bits of the bug. &lt;code&gt;dis&lt;/code&gt; gonna take it to the byte level. &lt;br /&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;I always used to wonder how python is interpreted and how does it exactly work under the hood during my journey of learning Python.
-As Python is an interpreted language, I was wondered how this the interpretation works under the hood.&lt;/p&gt;
+As Python is an interpreted language, I was wondered how this the interpretation works under the hood. &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;with the help of &lt;code&gt;dis&lt;/code&gt; you can see what the byte level operations are being told by the code you’ve written&lt;/p&gt;
+
+</content>
+ </entry>
+
+ <entry>
+   <title>Neo-Brutualism Art</title>
+   <link href="http://localhost:4000/2023/01/02/neo-brutualism-art"/>
+   <updated>2023-01-02T00:00:00+05:30</updated>
+   <id>http://localhost:4000/2023/01/02/neo-brutualism-art</id>
+   <content type="html">
+</content>
+ </entry>
+
+ <entry>
+   <title>Semantic Searches</title>
+   <link href="http://localhost:4000/2022/12/14/semantic-searches"/>
+   <updated>2022-12-14T00:00:00+05:30</updated>
+   <id>http://localhost:4000/2022/12/14/semantic-searches</id>
+   <content type="html">
 </content>
  </entry>
 
@@ -31,16 +52,50 @@ As Python is an interpreted language, I was wondered how this the interpretation
    <link href="http://localhost:4000/2022/11/28/setting-up-dev-environment"/>
    <updated>2022-11-28T00:00:00+05:30</updated>
    <id>http://localhost:4000/2022/11/28/setting-up-dev-environment</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/setting_up_dev_environment_comic.png&quot; alt=&quot;coding-comic&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;Configuration that I mention here are tailored in such a manner that I seek comfort in.
+You can find all my configuration in &lt;a href=&quot;https://www.github.com/shiyanshirani/dotfiles&quot; target=&quot;_blank&quot;&gt;dotfiles&lt;/a&gt; repository which I try to keep updated on frequent basis.&lt;/p&gt;
 
-&lt;p&gt;image-credits &lt;em&gt;&lt;a href=&quot;https://xkcd.com&quot;&gt;xkcd.com&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/setting_up_dev_environment_comic.png&quot; alt=&quot;coding-comic&quot; /&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;os : macOS 13.0.1
-terminal  : alacritty
-wm: yabai
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://support.apple.com/kb/SP819?locale=en_US&quot; target=&quot;_blank&quot;&gt;MacBook Pro 2020 (Intel)&lt;/a&gt; - with this being my daily driver for work as well has personal use, it never failed me to get the work done with ease, if only I could ask for update is for Finder, sometimes it could get a lot more difficult to do the straight-forward chores.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/alacritty/alacritty&quot; target=&quot;_blank&quot;&gt;alacritty&lt;/a&gt; - the most light-weighted terminal ever came across, as it is a terminal emulator it doesn’t come with tab support so for that I complement it with &lt;a href=&quot;https://github.com/tmux/tmux/wiki/Getting-Started&quot; target=&quot;_blank&quot;&gt;tmux&lt;/a&gt; with a cheeky way of using keymapings found on &lt;a href=&quot;https://www.joshmedeski.com/posts/macos-keyboard-shortcuts-for-tmux/&quot; target=&quot;_blank&quot;&gt;Josh Medeski’s notion&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/koekeishiya/yabai&quot; target=&quot;_blank&quot;&gt;yabai&lt;/a&gt; - a tiling management tool that snaps in tiles at lightining-fast speed which puts the native full-screen app tiling for macOS to absolute shame. &lt;em&gt;it’s &lt;a href=&quot;https://i3wm.org/&quot; target=&quot;_blank&quot;&gt;i3&lt;/a&gt; for unix.&lt;/em&gt; I twin it with &lt;a href=&quot;https://github.com/koekeishiya/skhd&quot; target=&quot;_blank&quot;&gt;skhd&lt;/a&gt; for keymapping with the addition of system-wide maps.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.google.com&quot;&gt;nvim/vim&lt;/a&gt; - personalized development environment (&lt;em&gt;PDE&lt;/em&gt;). small-dive into my most used &lt;a href=&quot;#plugins&quot;&gt;plugins&lt;/a&gt; and &lt;a href=&quot;#story time&quot;&gt;&lt;em&gt;story time&lt;/em&gt;&lt;/a&gt;
+&lt;a href=&quot;#&quot;&gt;asd&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;firefox -&lt;/li&gt;
+&lt;/ol&gt;
 
+&lt;p&gt;&lt;img src=&quot;/assets/firefox.png&quot; width=&quot;auto&quot; height=&quot;auto&quot; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;os:         macOS Ventura (13.0.1)
+shell:      zsh
+terminal:   alacritty
+wm:         yabai
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;del&gt;I don’t rage quit while making my dotfiles.&lt;/del&gt;&lt;/p&gt;
+
+&lt;p&gt;One of the hobbies I had way back since 2016 was for keyboards,  I spent ridiculous numbers of hours star-gazing &lt;a href=&quot;https://www.reddit.com/r/mkindia/&quot; taget=&quot;_blank&quot;&gt;r/mkindia&lt;/a&gt; and &lt;a href=&quot;https://www.reddit.com/r/MechanicalKeyboards/&quot; target=&quot;_blank&quot;&gt;r/MechanicalKeyboards&lt;/a&gt;, So I bought &lt;a href=&quot;https://www.banggood.in/GAMAKAY-TK68-Mechanical-Keyboard-68-Keys-Triple-Mode-Connection-Wired-Type-C-or-BT5_0-or-2_4G-Wireless-with-Receiver-Gateron-Switch-XDA-Profile-PBT-Keycaps-Hot-Swappable-RGB-Gaming-Keyboard-p-1837263.html?cur_warehouse=CN&amp;amp;ID=515632&quot; target=&quot;_blank&quot;&gt;Gamakay TK68&lt;/a&gt; in 2020 and geared then up with Gateron Browns (&lt;em&gt;not bad for the beginners&lt;/em&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/gamakay.png&quot; width=&quot;auto&quot; height=&quot;auto&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;plugins&quot;&gt;plugins&lt;/h1&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;code&gt;telescope.nvim&lt;/code&gt; - by far the most used plugin&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;vim-cool&lt;/code&gt; - removes highlighted texts after buffer search when hit &lt;code&gt;return&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;mason.nvim&lt;/code&gt; - lets me install lsps, formatters, linters &amp;amp; daps on the go.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;story-time&quot;&gt;story time&lt;/h1&gt;
+
+&lt;p&gt;image credits &lt;a href=&quot;https://xkcd.com&quot;&gt;xkcd.com&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
 
