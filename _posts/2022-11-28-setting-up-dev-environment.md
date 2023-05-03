@@ -44,10 +44,8 @@ One of the hobbies I had way back since 2016 was for keyboards,  I spent ridicul
 2. `vim-cool` - removes highlighted texts after buffer search when hit `return`.
 3. `mason.nvim` - lets me install lsps, formatters, linters & daps on the go.
 
+
 <hr>
-
-# story time
-
 
 
 image credits [xkcd.com](https://xkcd.com)
