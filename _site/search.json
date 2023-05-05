@@ -2,6 +2,17 @@
 
     {
 
+      "title"    : "wait, you use context-managers?",
+      "description" : "",
+      "url"      : "/2023/05/05/python-context-managers",
+      "category" : "",
+      "tags"     : "python, tech, work",
+      "date"     : "2023-05-05 00:00:00 +0530"
+
+    } ,
+
+    {
+
       "title"    : "you&#39;re going to love dis",
       "description" : "",
       "url"      : "/2023/02/02/low-level-python-operations",
@@ -13,29 +24,29 @@
 
     {
 
-      "title"    : "Neo-Brutualism Art",
+      "title"    : "neo-brutualism-art",
       "description" : "",
       "url"      : "/2023/01/02/neo-brutualism-art",
       "category" : "",
-      "tags"     : "life, art",
+      "tags"     : "life, art, rant",
       "date"     : "2023-01-02 00:00:00 +0530"
 
     } ,
 
     {
 
-      "title"    : "Semantic Searches",
+      "title"    : "semantic-searches",
       "description" : "",
       "url"      : "/2022/12/14/semantic-searches",
       "category" : "",
-      "tags"     : "",
+      "tags"     : "tools",
       "date"     : "2022-12-14 00:00:00 +0530"
 
     } ,
 
     {
 
-      "title"    : "Setting up my dev environment",
+      "title"    : "setting up my dev environment",
       "description" : "",
       "url"      : "/2022/11/28/setting-up-dev-environment",
       "category" : "",

@@ -4,13 +4,49 @@
  <title>Shiyan Shirani</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2023-04-22T17:28:44+05:30</updated>
+ <updated>2023-05-05T23:43:47+05:30</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Shiyan Shirani</name>
    <email>shiyan99s@gmail.com</email>
  </author>
 
+
+ <entry>
+   <title>wait, you use context-managers?</title>
+   <link href="http://localhost:4000/2023/05/05/python-context-managers"/>
+   <updated>2023-05-05T00:00:00+05:30</updated>
+   <id>http://localhost:4000/2023/05/05/python-context-managers</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;/assets/hard_reboot.png&quot;&gt;&lt;img src=&quot;/assets/hard_reboot.png&quot; alt=&quot;memory-leak&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Memory leaks?! pfft! my good ol’ Python handles everything for me.&lt;/em&gt; Well we wish we could’ve had it all  but that’s not the case. Before getting to know &lt;code&gt;context-managers&lt;/code&gt; let’s learn the usage of &lt;code&gt;with&lt;/code&gt; statement. Let’s see it with a help of a code.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;with open(&apos;sample.txt&apos;, &apos;w&apos;) as file:
+    file.write(&apos;Thanks Guido van Rossum&apos;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;but what if deadlines are near and you’re throwing the most complex macros at your code to make that deadline possible and exploit Python with poor choice of code like&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;file = open(&apos;sample.txt&apos;)
+file.write(&apos;Thanks Guido van Rossum&apos;)
+file.close()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;em&gt;Looks good? let’s move on with life and wait for that appraisal?&lt;/em&gt; &lt;br /&gt; &lt;br /&gt;
+If you are also thinking like that then you’re in the wrong. There are few but major things that you overlooked that can shoot you in the feet,
+what if &lt;code&gt;file.write()&lt;/code&gt; runs into an error and never reaches &lt;code&gt;file.close()&lt;/code&gt;? and that’s how a memory leak is produced because you can never go back to that piece of run because it failed in execution.&lt;/p&gt;
+
+&lt;p&gt;Let me break the above code into verbose way of Python and &lt;em&gt;the&lt;/em&gt; correct way.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;file = open(&apos;sample.txt&apos;)
+try:
+    file.write(&apos;sweet text&apos;)
+finally:
+    file.close()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now we got the big guns, our near and dear &lt;code&gt;try&lt;/code&gt; catch statements which will help us deal with exceptions and how to handle it and that is the exact way how &lt;code&gt;with&lt;/code&gt; statement works under the hood.&lt;/p&gt;
+</content>
+ </entry>
 
  <entry>
    <title>you&apos;re going to love dis</title>
@@ -45,21 +81,25 @@ if __name__ == &quot;__main__&quot;:
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;strong&gt;LOAD_FAST&lt;/strong&gt;: is used for local variables, accessing the value in an array by index &lt;br /&gt;
 &lt;strong&gt;LOAD_CONST&lt;/strong&gt;:&lt;/p&gt;
-
 </content>
  </entry>
 
  <entry>
-   <title>Neo-Brutualism Art</title>
+   <title>neo-brutualism-art</title>
    <link href="http://localhost:4000/2023/01/02/neo-brutualism-art"/>
    <updated>2023-01-02T00:00:00+05:30</updated>
    <id>http://localhost:4000/2023/01/02/neo-brutualism-art</id>
-   <content type="html">
+   <content type="html">&lt;p&gt;Today’s rant won’t be much about tech but instead it’ll be touching user interface side of the world that I somehow care about (ಠ⌣ಠ). &lt;br /&gt;&lt;br /&gt;
+Very recently I stumbled across a unique niche of art called &lt;code&gt;Neo-Brutualism&lt;/code&gt; or &lt;code&gt;Neu-Brutualism&lt;/code&gt;. I would be calling it Neo Brutualism for the rest of the rant. I don’t consider myself as a very &lt;em&gt;colorful or artistic&lt;/em&gt; of a kind, personally I have an eye for monochromatic consistent look or how exactly an old engineering wiki page resembles like. I would prefer the first born reddit UI anyday over websites which might look bombarded with hardcore visuals which would look appealing at the first glance but could be taxing after frequent visits like &lt;a href=&quot;https://kprverse.com/&quot;&gt;kprverse&lt;/a&gt; to which I have no hate, &lt;em&gt;kudos to the frontend team&lt;/em&gt;. Anyways, enough rant about how I like things, I would come back to the the topic of where I first saw the concept of &lt;code&gt;Neo-Brutualism&lt;/code&gt;, I came across &lt;a href=&quot;https://gumroad.com/&quot;&gt;gumroad&lt;/a&gt; to get my hands on a wallpaper pack  where I noted the peculiar or should I say unpredictable color pallete of the website with the bold elegant choice of typography.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/gumroad_website.png&quot;&gt;&lt;img src=&quot;/assets/gumroad_website.png&quot; alt=&quot;gumroad-website&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;and that led me to learn more about this design concept. So I wasn’t aware what kind of style it is so I took a screenshot of the website; reverse searched the image leading to pinterest, where much wasn’t discovered but a lot of interesting concepts of &lt;code&gt;brutualism&lt;/code&gt; concept was portrayed in context of architecture that is to say:&lt;/p&gt;
 </content>
  </entry>
 
  <entry>
-   <title>Semantic Searches</title>
+   <title>semantic-searches</title>
    <link href="http://localhost:4000/2022/12/14/semantic-searches"/>
    <updated>2022-12-14T00:00:00+05:30</updated>
    <id>http://localhost:4000/2022/12/14/semantic-searches</id>
@@ -68,7 +108,7 @@ if __name__ == &quot;__main__&quot;:
  </entry>
 
  <entry>
-   <title>Setting up my dev environment</title>
+   <title>setting up my dev environment</title>
    <link href="http://localhost:4000/2022/11/28/setting-up-dev-environment"/>
    <updated>2022-11-28T00:00:00+05:30</updated>
    <id>http://localhost:4000/2022/11/28/setting-up-dev-environment</id>
@@ -102,8 +142,8 @@ shell:      zsh
 terminal:   alacritty
 wm:         yabai
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;/div
-One of the hobbies I had way back since 2016 was for keyboards,  I spent ridiculous numbers of hours star-gazing &lt;a href=&quot;https://www.reddit.com/r/mkindia/&quot; taget=&quot;_blank&quot;&gt;r/mkindia&lt;/a&gt; and &lt;a href=&quot;https://www.reddit.com/r/MechanicalKeyboards/&quot; target=&quot;_blank&quot;&gt;r/MechanicalKeyboards&lt;/a&gt;, So I bought &lt;a href=&quot;https://www.banggood.in/GAMAKAY-TK68-Mechanical-Keyboard-68-Keys-Triple-Mode-Connection-Wired-Type-C-or-BT5_0-or-2_4G-Wireless-with-Receiver-Gateron-Switch-XDA-Profile-PBT-Keycaps-Hot-Swappable-RGB-Gaming-Keyboard-p-1837263.html?cur_warehouse=CN&amp;amp;ID=515632&quot; target=&quot;_blank&quot;&gt;Gamakay TK68&lt;/a&gt; in 2020 and geared then up with Gateron Browns (&lt;em&gt;not bad for the beginners&lt;/em&gt;).&lt;/p&gt;
+
+&lt;p&gt;One of the hobbies I had way back since 2016 was for keyboards,  I spent ridiculous numbers of hours star-gazing &lt;a href=&quot;https://www.reddit.com/r/mkindia/&quot; taget=&quot;_blank&quot;&gt;r/mkindia&lt;/a&gt; and &lt;a href=&quot;https://www.reddit.com/r/MechanicalKeyboards/&quot; target=&quot;_blank&quot;&gt;r/MechanicalKeyboards&lt;/a&gt;, So I bought &lt;a href=&quot;https://www.banggood.in/GAMAKAY-TK68-Mechanical-Keyboard-68-Keys-Triple-Mode-Connection-Wired-Type-C-or-BT5_0-or-2_4G-Wireless-with-Receiver-Gateron-Switch-XDA-Profile-PBT-Keycaps-Hot-Swappable-RGB-Gaming-Keyboard-p-1837263.html?cur_warehouse=CN&amp;amp;ID=515632&quot; target=&quot;_blank&quot;&gt;Gamakay TK68&lt;/a&gt; in 2020 and geared then up with Gateron Browns (&lt;em&gt;not bad for the beginners&lt;/em&gt;).&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/gamakay.png&quot; width=&quot;auto&quot; height=&quot;auto&quot; /&gt;&lt;/p&gt;
 
@@ -113,8 +153,6 @@ One of the hobbies I had way back since 2016 was for keyboards,  I spent ridicul
   &lt;li&gt;&lt;code&gt;vim-cool&lt;/code&gt; - removes highlighted texts after buffer search when hit &lt;code&gt;return&lt;/code&gt;.&lt;/li&gt;
   &lt;li&gt;&lt;code&gt;mason.nvim&lt;/code&gt; - lets me install lsps, formatters, linters &amp;amp; daps on the go.&lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;hr /&gt;
 
 &lt;p&gt;image credits &lt;a href=&quot;https://xkcd.com&quot;&gt;xkcd.com&lt;/a&gt;&lt;/p&gt;
 </content>

@@ -1,11 +1,7 @@
 links:
 - title: writing
   url: /
-- title: about
-  url: /about
-- title: anime
-  url: /anime
 - title: search
   url: /search
-- title: life
-  url: /life
+- title: about
+  url: /about

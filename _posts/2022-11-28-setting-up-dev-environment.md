@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Setting up my dev environment
+title: setting up my dev environment
 description:
 summary:
-img: /assets/coding_cominc.png
+img: /assets/coding_comic.png
 tags: [python, tools]
 ---
 
@@ -32,7 +32,7 @@ shell:      zsh
 terminal:   alacritty
 wm:         yabai
 ```
-/div
+
 One of the hobbies I had way back since 2016 was for keyboards,  I spent ridiculous numbers of hours star-gazing [r/mkindia](https://www.reddit.com/r/mkindia/){:taget="_blank"} and [r/MechanicalKeyboards](https://www.reddit.com/r/MechanicalKeyboards/){:target="_blank"}, So I bought [Gamakay TK68](https://www.banggood.in/GAMAKAY-TK68-Mechanical-Keyboard-68-Keys-Triple-Mode-Connection-Wired-Type-C-or-BT5_0-or-2_4G-Wireless-with-Receiver-Gateron-Switch-XDA-Profile-PBT-Keycaps-Hot-Swappable-RGB-Gaming-Keyboard-p-1837263.html?cur_warehouse=CN&ID=515632){:target="_blank"} in 2020 and geared then up with Gateron Browns (*not bad for the beginners*).
 
 <img src="/assets/gamakay.png"  width="auto" height="auto">
@@ -43,9 +43,6 @@ One of the hobbies I had way back since 2016 was for keyboards,  I spent ridicul
 1. `telescope.nvim` - by far the most used plugin
 2. `vim-cool` - removes highlighted texts after buffer search when hit `return`.
 3. `mason.nvim` - lets me install lsps, formatters, linters & daps on the go.
-
-
-<hr>
 
 
 image credits [xkcd.com](https://xkcd.com)
