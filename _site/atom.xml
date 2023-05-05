@@ -4,7 +4,7 @@
  <title>Shiyan Shirani</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2023-05-05T23:43:47+05:30</updated>
+ <updated>2023-05-06T03:28:43+05:30</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Shiyan Shirani</name>
@@ -19,16 +19,16 @@
    <id>http://localhost:4000/2023/05/05/python-context-managers</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;/assets/hard_reboot.png&quot;&gt;&lt;img src=&quot;/assets/hard_reboot.png&quot; alt=&quot;memory-leak&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Memory leaks?! pfft! my good ol’ Python handles everything for me.&lt;/em&gt; Well we wish we could’ve had it all  but that’s not the case. Before getting to know &lt;code&gt;context-managers&lt;/code&gt; let’s learn the usage of &lt;code&gt;with&lt;/code&gt; statement. Let’s see it with a help of a code.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Memory leaks?! pfft! my good ol’ Python handles everything for me&lt;/em&gt;. Well, we all wish this could have been true, but that’s not the case. Before getting to know &lt;code&gt;context managers&lt;/code&gt;, let me highlight the usage of &lt;code&gt;with&lt;/code&gt; statement. Let’s see it with the help of a code.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;with open(&apos;sample.txt&apos;, &apos;w&apos;) as file:
-    file.write(&apos;Thanks Guido van Rossum&apos;)
+    file.write(&apos;blah&apos;)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;but what if deadlines are near and you’re throwing the most complex macros at your code to make that deadline possible and exploit Python with poor choice of code like&lt;/p&gt;
+&lt;p&gt;but what if deadlines are near and you’re throwing the most complex macros at your code to make that deadline possible and exploit Python with a poor choice of code like&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;file = open(&apos;sample.txt&apos;)
-file.write(&apos;Thanks Guido van Rossum&apos;)
+file.write(&apos;blah&apos;)
 file.close()
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -40,11 +40,54 @@ what if &lt;code&gt;file.write()&lt;/code&gt; runs into an error and never reach
 
 &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;file = open(&apos;sample.txt&apos;)
 try:
-    file.write(&apos;sweet text&apos;)
+    file.write(&apos;blah&apos;)
 finally:
     file.close()
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Now we got the big guns, our near and dear &lt;code&gt;try&lt;/code&gt; catch statements which will help us deal with exceptions and how to handle it and that is the exact way how &lt;code&gt;with&lt;/code&gt; statement works under the hood.&lt;/p&gt;
+&lt;p&gt;Now we got the big guns, our near and dear &lt;code&gt;try-catch&lt;/code&gt; statements which will help us deal with exceptions and how to handle them and that is the exact way how &lt;code&gt;with&lt;/code&gt; statement works under the hood.&lt;/p&gt;
+
+&lt;p&gt;Now we shall proceed with &lt;code&gt;context-managers&lt;/code&gt; and how we can make our own &lt;em&gt;class-based&lt;/em&gt; or &lt;em&gt;function-based&lt;/em&gt; &lt;code&gt;with&lt;/code&gt; statements.
+To do so all we need is to add &lt;code&gt;__enter__&lt;/code&gt; &amp;amp; &lt;code&gt;__exit__&lt;/code&gt; dunder methods.&lt;/p&gt;
+
+&lt;h4 id=&quot;class-based&quot;&gt;class-based&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;class Manager:
+    def __init__(self, name):
+        self.name = name
+
+    def __enter__(self):
+        self.file = open(self.name, &apos;w&apos;)
+        return self.file
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        if self.file:
+            self.file.close()
+
+$ usage:
+
+with Manager(&apos;sample.txt&apos;) as f:
+    f.write(&apos;blah&apos;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;function-based&quot;&gt;function-based&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;from contextlib import contextmanager
+
+@contextmanager
+def manage_file(name: str):
+    try:
+        file = open(name, &apos;w&apos;)
+    finally:
+        file.close()
+
+$ usage:
+
+with manage_file(&apos;sample.txt&apos;) as file:
+    file.write(&apos;blah&apos;)
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and that’s how we make our own &lt;code&gt;context-manager&lt;/code&gt; from scratch.
+&lt;br /&gt; &lt;br /&gt;
+&lt;em&gt;until next time. :)&lt;/em&gt;&lt;/p&gt;
 </content>
  </entry>
 
