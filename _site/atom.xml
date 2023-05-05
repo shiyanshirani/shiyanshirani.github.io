@@ -4,7 +4,7 @@
  <title>Shiyan Shirani</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2023-05-06T03:30:49+05:30</updated>
+ <updated>2023-05-06T04:00:10+05:30</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Shiyan Shirani</name>
@@ -82,12 +82,20 @@ $ usage:
 
 with manage_file(&apos;sample.txt&apos;) as file:
     file.write(&apos;blah&apos;)
-
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;and that’s how we make our own &lt;code&gt;context-manager&lt;/code&gt; from scratch.
-&lt;br /&gt; &lt;br /&gt;
-&lt;em&gt;until next time. :)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;and that’s how we make our own &lt;code&gt;context-manager&lt;/code&gt; from scratch. &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;if all of this was &lt;em&gt;overwhelming&lt;/em&gt; and you wish not to care about this by yourself; you can use &lt;a href=&quot;https://pypi.org/project/fuckit/&quot; target=&quot;_blank&quot;&gt;&lt;em&gt;fuckit&lt;/em&gt;&lt;/a&gt; package in your codebase to handle all the error that has been there since the dawn of mankind and also in the literal sense.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Good to knows&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=18632125&quot; target=&quot;_blank&quot;&gt;Fixing a Tough Memory Leak in Python&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=13123478&quot; target=&quot;_blank&quot;&gt;Tracking Down a Python Memory Leak&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;em&gt;until next time.&lt;/em&gt;&lt;/p&gt;
 </content>
  </entry>
 

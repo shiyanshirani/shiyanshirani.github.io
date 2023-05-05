@@ -78,9 +78,16 @@ $ usage:
 
 with manage_file('sample.txt') as file:
     file.write('blah')
-
 ```
 
-and that's how we make our own `context-manager` from scratch.
-<br/> <br/>
-_until next time. :)_
+and that's how we make our own `context-manager` from scratch. <br/>
+
+
+if all of this was _overwhelming_ and you wish not to care about this by yourself; you can use [_fuckit_](https://pypi.org/project/fuckit/){:target="_blank"} package in your codebase to handle all the error that has been there since the dawn of mankind and also in the literal sense.<br/>
+
+Good to knows
+- [Fixing a Tough Memory Leak in Python](https://news.ycombinator.com/item?id=18632125){:target="_blank"}
+- [Tracking Down a Python Memory Leak](https://news.ycombinator.com/item?id=13123478){:target="_blank"}
+
+<br/>
+_until next time._
