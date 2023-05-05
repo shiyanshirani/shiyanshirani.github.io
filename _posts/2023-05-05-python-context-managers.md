@@ -7,7 +7,7 @@ img:
 tags: [python, tech, work]
 ---
 
-![memory-leak](/assets/hard_reboot.png)(/assets/hard_reboot.png)
+![memory-leak](/assets/hard_reboot.png)
 
 _Memory leaks?! pfft! my good ol’ Python handles everything for me_. Well, we all wish this could have been true, but that’s not the case. Before getting to know `context managers`, let me highlight the usage of `with` statement. Let’s see it with the help of a code.
 

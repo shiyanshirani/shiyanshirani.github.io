@@ -4,7 +4,7 @@
  <title>Shiyan Shirani</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2023-05-06T03:30:08+05:30</updated>
+ <updated>2023-05-06T03:30:49+05:30</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Shiyan Shirani</name>
@@ -17,7 +17,7 @@
    <link href="http://localhost:4000/2023/05/05/python-context-managers"/>
    <updated>2023-05-05T00:00:00+05:30</updated>
    <id>http://localhost:4000/2023/05/05/python-context-managers</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/hard_reboot.png&quot; alt=&quot;memory-leak&quot; /&gt;(/assets/hard_reboot.png)&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/hard_reboot.png&quot; alt=&quot;memory-leak&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Memory leaks?! pfft! my good ol’ Python handles everything for me&lt;/em&gt;. Well, we all wish this could have been true, but that’s not the case. Before getting to know &lt;code&gt;context managers&lt;/code&gt;, let me highlight the usage of &lt;code&gt;with&lt;/code&gt; statement. Let’s see it with the help of a code.&lt;/p&gt;
 
