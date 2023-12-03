@@ -10,7 +10,7 @@ tags: [python]
 I always used to wonder how python is interpreted and how does it exactly work under the hood during my journey of learning Python.
 As Python is an interpreted language, I was wondered how this the interpretation works under the hood.
 
-> The best practise is to reverse engineer the problem to its component parts. This is going to take it to the byte level.
+> The best practice is to reverse engineer the problem to its component parts. This is going to take it to the byte level.
 
 The dis module supports the analysis of `CPython` bytecode by disassembling it, with the help of `dis` you can see what byte level operations are being done by your code.
 <br/><br/>
@@ -33,5 +33,7 @@ if __name__ == "__main__":
      4 BINARY_ADD
      6 RETURN_VALUE
 ```
-**LOAD_FAST**: is used for local variables, accessing the value in an array by index <br/>
-**LOAD_CONST**:
+`LOAD_FAST`: is used for local variables, accessing the value in an array by index <br/>
+`LOAD_CONST`: instruction is used to load a constant onto the stack <br/>
+`BINARY_ADD` : is used to add the two values <br/>
+`RETURN_VALUE` : is used to return this value from the function <br/>

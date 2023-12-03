@@ -4,7 +4,7 @@
  <title>Shiyan Shirani</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2023-05-06T04:00:10+05:30</updated>
+ <updated>2023-09-23T00:05:26+05:30</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Shiyan Shirani</name>
@@ -108,7 +108,7 @@ with manage_file(&apos;sample.txt&apos;) as file:
 As Python is an interpreted language, I was wondered how this the interpretation works under the hood.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;The best practise is to reverse engineer the problem to its component parts. This is going to take it to the byte level.&lt;/p&gt;
+  &lt;p&gt;The best practice is to reverse engineer the problem to its component parts. This is going to take it to the byte level.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;The dis module supports the analysis of &lt;code&gt;CPython&lt;/code&gt; bytecode by disassembling it, with the help of &lt;code&gt;dis&lt;/code&gt; you can see what byte level operations are being done by your code.
@@ -130,8 +130,10 @@ if __name__ == &quot;__main__&quot;:
      4 BINARY_ADD
      6 RETURN_VALUE
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;LOAD_FAST&lt;/strong&gt;: is used for local variables, accessing the value in an array by index &lt;br /&gt;
-&lt;strong&gt;LOAD_CONST&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;LOAD_FAST&lt;/code&gt;: is used for local variables, accessing the value in an array by index &lt;br /&gt;
+&lt;code&gt;LOAD_CONST&lt;/code&gt;: instruction is used to load a constant onto the stack &lt;br /&gt;
+&lt;code&gt;BINARY_ADD&lt;/code&gt; : is used to add the two values &lt;br /&gt;
+&lt;code&gt;RETURN_VALUE&lt;/code&gt; : is used to return this value from the function &lt;br /&gt;&lt;/p&gt;
 </content>
  </entry>
 
@@ -146,15 +148,6 @@ Very recently I stumbled across a unique niche of art called &lt;code&gt;Neo-Bru
 &lt;p&gt;&lt;a href=&quot;/assets/gumroad_website.png&quot;&gt;&lt;img src=&quot;/assets/gumroad_website.png&quot; alt=&quot;gumroad-website&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;and that led me to learn more about this design concept. So I wasn’t aware what kind of style it is so I took a screenshot of the website; reverse searched the image leading to pinterest, where much wasn’t discovered but a lot of interesting concepts of &lt;code&gt;brutualism&lt;/code&gt; concept was portrayed in context of architecture that is to say:&lt;/p&gt;
-</content>
- </entry>
-
- <entry>
-   <title>semantic-searches</title>
-   <link href="http://localhost:4000/2022/12/14/semantic-searches"/>
-   <updated>2022-12-14T00:00:00+05:30</updated>
-   <id>http://localhost:4000/2022/12/14/semantic-searches</id>
-   <content type="html">
 </content>
  </entry>
 
@@ -176,13 +169,13 @@ You can find all my configuration in &lt;a href=&quot;https://www.github.com/shi
     &lt;p&gt;&lt;a href=&quot;https://github.com/alacritty/alacritty&quot; target=&quot;_blank&quot;&gt;alacritty&lt;/a&gt; - the most light-weighted terminal ever came across, as it is a terminal emulator it doesn’t come with tab support so for that I complement it with &lt;a href=&quot;https://github.com/tmux/tmux/wiki/Getting-Started&quot; target=&quot;_blank&quot;&gt;tmux&lt;/a&gt; with a cheeky way of using keymapings found on &lt;a href=&quot;https://www.joshmedeski.com/posts/macos-keyboard-shortcuts-for-tmux/&quot; target=&quot;_blank&quot;&gt;Josh Medeski’s notion&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/koekeishiya/yabai&quot; target=&quot;_blank&quot;&gt;yabai&lt;/a&gt; - a tiling management tool that snaps in tiles at lightining-fast speed which puts the native full-screen app tiling for macOS to absolute shame. &lt;em&gt;it’s &lt;a href=&quot;https://i3wm.org/&quot; target=&quot;_blank&quot;&gt;i3&lt;/a&gt; for unix.&lt;/em&gt; I twin it with &lt;a href=&quot;https://github.com/koekeishiya/skhd&quot; target=&quot;_blank&quot;&gt;skhd&lt;/a&gt; for keymapping with the addition of system-wide maps.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/koekeishiya/yabai&quot; target=&quot;_blank&quot;&gt;yabai&lt;/a&gt; - a tiling management tool that snaps in tiles at lightining-fast speed which puts the native full-screen app tiling for macOS to absolute shame. I twin it with &lt;a href=&quot;https://github.com/koekeishiya/skhd&quot; target=&quot;_blank&quot;&gt;skhd&lt;/a&gt; for keymapping with the addition of system-wide maps.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.google.com&quot;&gt;nvim/vim&lt;/a&gt; - personalized development environment (&lt;em&gt;PDE&lt;/em&gt;). small-dive into my most used &lt;a href=&quot;#plugins&quot;&gt;plugins&lt;/a&gt; and &lt;a href=&quot;#story time&quot;&gt;&lt;em&gt;story time&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.google.com&quot;&gt;nvim/vim&lt;/a&gt; - personalized development environment (&lt;em&gt;PDE&lt;/em&gt;). small-dive into my most used &lt;a href=&quot;#plugins&quot;&gt;plugins&lt;/a&gt;.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;firefox -&lt;/p&gt;
+    &lt;p&gt;firefox - paired with &lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/&quot; target=&quot;_blank&quot;&gt;Vimium&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
